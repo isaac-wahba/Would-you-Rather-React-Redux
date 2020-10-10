@@ -25,5 +25,5 @@ Run `yarn install` or `npm install` from the project root folder to install the 
 Run `yarn run` or `npm run` from the project root folder to run the application
 
 
-###Project test
+### Project test
 - Android. 
