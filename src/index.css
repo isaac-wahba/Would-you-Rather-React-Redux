@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerd-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.sign-in {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.question {
+    border: 1px solid black;
+}
+
+.links-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.links-list-item {
+    float: left;
+}
+
+.links-list-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+.links-list-item a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #61dafb;
+}
+
+.align-right {
+    float: right;
+}
+
+.sign-out {
+    background-color: #333;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.sign-out:hover {
+    background-color: #111;
+}
+
+.question-group {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.question-group:hover {
+    background-color: #111;
+}
+
+.question-group:disabled {
+    background-color: #61dafb;
+}
+
+.question-overview {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #61dafb;
+    padding: 10px;
+}
+
+.option {
+    display: inline-block;
+    text-align: center;
+    width: 46%;
+    background-color: #61dafb;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.option-detailed {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 46%;
+    height: 120px;
+    background-color: #61dafb;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.option-btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 46%;
+    height: 120px;
+    background-color: #61dafb;
+    margin: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #61dafb;
+}
+
+.option-new {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 45%;
+    height: 120px;
+    border-color: #61dafb;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.create-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(36, 201, 212);
+    font-weight: bold;
+    color: black;
+}
+
+.create-btn:disabled {
+    background-color: grey;
+}
+
+.create-btn:hover:enabled {
+    background-color: rgb(36, 219, 158);
+    cursor: pointer;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.leaderboard-first {
+    border: 5px solid rgb(3, 98, 110);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.leaderboard-second {
+    border: 4px solid rgb(28, 121, 197);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.leaderboard-third {
+    border: 3px solid #50c8e6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.leaderboard-entry {
+    border: 2px solid grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.leaderboard-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
