@@ -22,8 +22,8 @@ Run `yarn install` or `npm install` from the project root folder to install the 
 
 ### Run
 
-Run `yarn run` or `npm run` from the project root folder to run the application
-Run `expo start` from the project root folder to run the application.
+- Run `yarn run` or `npm run` from the project root folder to run the application
+- Run `expo start` from the project root folder to run the application.
 
 
 ### Project test
